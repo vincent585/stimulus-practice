@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+
+.toggle-dropdown {
+    display: none;
+}
+
+.toggle--shown .toggle-dropdown {
+    display: initial;
+}
