@@ -22,3 +22,7 @@
 .toggle--shown .toggle-dropdown {
     display: initial;
 }
+
+.toggle--highlight {
+    background: lightgreen;
+}
