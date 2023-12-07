@@ -26,3 +26,8 @@
 .toggle--highlight {
     background: lightgreen;
 }
+
+.length-warning--warn {
+    display: inline-block;
+    background-color: indianred;
+}

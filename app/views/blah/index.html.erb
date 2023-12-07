@@ -36,3 +36,15 @@
     I want to see this highlighted! <input data-action="toggle#highlight" type="checkbox">
   </label>
 </div>
+
+<div data-controller="length-warning"
+     data-length-warning-warn-class="length-warning--warn"
+     data-length-warning-currentLength-value="0" data-length-warning-limit-value="280">
+  <div>
+    <div data-length-warning-target="output"></div>
+    <label> Share your thoughts:
+      <textarea data-length-warning-target="currentLength warn" data-action="length-warning#updateCurrentLength">
+    </textarea>
+    </label>
+  </div>
+</div>
